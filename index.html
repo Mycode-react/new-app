@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Weather App</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="like">
+            <h4 class="heading">Weather App</h4>
+            <div class="input-field">
+                <input id="inputtab" class="searchtab" placeholder="Enter City Name" />
+                <button id="buttontab" class="button">Search</button>
+            </div>
+            <div class="tempbody">
+                <div class="tempstyle">
+                    <h2><span id="city-temp">0</span> °C &nbsp;</h2> <span id="wdescription">| Sky</span>
+                </div>
+                <div class="tempicon"><img id="iconstab" class="image-tag" src="Perfectday.svg"> </div>
+            </div>
+            <div class="cityrow">
+                <div><span id="city-name">City</span> , <span id="country-name">Country</span></div>
+            </div>
+
+            <div class="info">
+                <div>
+                    <h6>Weather Info</h6>
+                </div>
+            </div>
+            <div class="weather-info">
+                <div class="icons"><img class="iconsvg" src="./temp.svg"></div>
+                <div class="ibody"><span id="sunrise">00</span><br>Max Temp</div>
+                <div class="icons"><img class="iconsvg" src="./humidity.svg"></div>
+                <div class="ibody"><span id="humidity">00</span>&nbsp;%<br><span>Humidity</span></div>
+            </div>
+            <div class="weather-info">
+                <div class="icons"><img class="iconsvg" src="./wind.svg"></div>
+                <div class="ibody"><span id="wind">00</span>&nbsp;mph<br>Wind</div>
+                <div class="icons"><img class="iconsvg-new" src="./pressure.svg"></div>
+                <div class="ibody"><span id="pressure">00</span>&nbsp;mbar<br>Pressure</div>
+            </div>
+
+
+
+
+        </div>
+
+
+
+    </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
