@@ -38,7 +38,7 @@ function timeConvert(num) {
 }
 
 async function getWeatherData(cityName) {
-    const response = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${cityName}&APPID=71f6779186cc32448b4c412eea65b982&units=metric`);
+    const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&APPID=71f6779186cc32448b4c412eea65b982&units=metric`);
     return await response.json();
 }
 button.addEventListener('click', async () => {
